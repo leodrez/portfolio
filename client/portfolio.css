@@ -1,0 +1,3355 @@
+html {
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+
+.description {
+  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 5s; /* Firefox < 16 */
+  -ms-animation: fadein 5s; /* Internet Explorer */
+  -o-animation: fadein 5s; /* Opera < 12.1 */
+  animation: fadein 5s;
+}
+
+.logo {
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 4s; /* Firefox < 16 */
+  -ms-animation: fadein 4s; /* Internet Explorer */
+  -o-animation: fadein 4s; /* Opera < 12.1 */
+  animation: fadein 4s;
+}
+
+.side-text {
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 4s; /* Firefox < 16 */
+  -ms-animation: fadein 4s; /* Internet Explorer */
+  -o-animation: fadein 4s; /* Opera < 12.1 */
+  animation: fadein 4s;
+}
+
+.vr {
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 4s; /* Firefox < 16 */
+  -ms-animation: fadein 4s; /* Internet Explorer */
+  -o-animation: fadein 4s; /* Opera < 12.1 */
+  animation: fadein 4s;
+}
+
+body {
+  background-color: #d8d8d8 !important;
+  overflow-x: hidden;
+}
+
+
+.row {
+  margin: 0 !important;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.resume a:hover {
+  color: #50E3C2;
+  text-decoration: line-through;
+}
+
+.contact a:hover {
+  color: #50E3C2;
+  text-decoration: line-through;
+}
+
+.contact img:hover {
+  transform: rotate(15deg);
+  transition: transform, 1000ms, ease-in-out;
+}
+
+
+@media screen and (max-width: 1400px) {
+  .vr {
+    width: 1px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 8%;
+    z-index: 2;
+  }
+
+  .header {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: #ccc;
+  }
+
+  .logo {
+    position: relative;
+    z-index: 10;
+    top: 40px;
+    left: 2.02%;
+  }
+
+  .logo img {
+    height: auto;
+    width: 12%;
+  }
+
+  .name {
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+    display: block;
+  }
+
+  .name h3 {
+    color: #fff;
+    letter-spacing: 10px;
+    font-weight: 200;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .description h1 {
+    padding: 0;
+    margin: 0;
+    bottom: 80px;
+    display: block;
+    position: relative;
+    letter-spacing: 10px;
+    font-weight: 400;
+  }
+
+  .row1 {
+    top: 0;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: #D8D8D8;
+    position: relative;
+    z-index: 1;
+  }
+
+  .side-text {
+    background-color: transparent;
+    left: -18.5%;
+    z-index: 3;
+  }
+
+  .side-text h3 {
+    color: #fff;
+    padding-left: 8%;
+    letter-spacing: 10px;
+    font-weight: 200;
+    font-size: 30px;
+    transform: rotate(270deg);
+  }
+
+  .img-1 {
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .img-1 img {
+    width: 100%;
+  }
+
+  .row2 {
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: transparent;
+    position: relative;
+    z-index: 3;
+  }
+
+  .paragraph {
+    padding: 0;
+    width: 100%;
+    background-color: #ccc;
+    z-index: 3;
+  }
+
+  .paragraph p {
+    padding: 5%;
+    font-size: 25px;
+    text-align: right;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 10px;
+  }
+
+  .row3 {
+    height: 400px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 1;
+    padding: 0;
+  }
+
+  .empty-block2 {
+    width: 100%;
+    float: left;
+  }
+
+  .resume {
+    height: 400px;
+    text-align: center;
+    background-color: #000;
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .resume a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .resume h1 {
+    margin-top: 27%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .row4 {
+    height: 400px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 3;
+    padding: 0;
+  }
+
+  .empty-block3 {
+    width: 100%;
+    float: right;
+  }
+
+  .skills {
+    height: 400px;
+    text-align: center;
+    background-color: #ccc;
+    float: left !important;
+    padding: 0px !important;
+  }
+
+  .skills h1 {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+    padding-bottom: 5%;
+  }
+
+  .skills h3 {
+    font-size: 25px;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 10px;
+  }
+
+  .row5 {
+    height: 400px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 1;
+    padding: 0;
+  }
+
+  .empty-block2 {
+    width: 100%;
+    float: left;
+  }
+
+  .acomplishments {
+    height: 400px;
+    text-align: center;
+    background-color: #000;
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .acomplishments h1 {
+    margin-top: 10%;
+    padding-bottom: 5%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .acomplishments h3 {
+    padding: 2% 3%;
+    font-size: 21px;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 10px;
+    text-align: left;
+  }
+
+  .row6 {
+    height: 400px;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 3;
+    padding: 0;
+  }
+
+  .contact {
+    width: 100%;
+    float: right;
+    text-align: center;
+  }
+
+  .contact h1 {
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 10% 20%;
+  }
+
+  .contact h3 {
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 10px;
+    text-align: center;
+    text-decoration: line-through;
+  }
+
+  .contact img {
+    height: auto;
+    width: 25%;
+    padding: 3%;
+  }
+
+  .img-2 {
+    height: auto;
+    background-color: #000;
+    float: left !important;
+    padding: 0px !important;
+  }
+
+  .img-2 img {
+    height: auto;
+    width: 65%;
+    margin-right: 18%;
+    float: right;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .vr {
+    width: 1px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 8%;
+    z-index: 2;
+  }
+
+  .header {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: #ccc;
+  }
+
+  .logo {
+    position: relative;
+    z-index: 10;
+    top: 40px;
+    left: 2.02%;
+  }
+
+  .logo img {
+    height: auto;
+    width: 12%;
+  }
+
+  .name {
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+    display: block;
+  }
+
+  .name h3 {
+    color: #fff;
+    letter-spacing: 10px;
+    font-weight: 200;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .description h1 {
+    padding: 0;
+    margin: 0;
+    bottom: 80px;
+    display: block;
+    position: relative;
+    letter-spacing: 10px;
+    font-weight: 400;
+  }
+
+  .row1 {
+    top: 0;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: #D8D8D8;
+    position: relative;
+    z-index: 1;
+  }
+
+  .side-text {
+    background-color: transparent;
+    left: -18.5%;
+    z-index: 3;
+  }
+
+  .side-text h3 {
+    color: #fff;
+    padding-left: 8%;
+    letter-spacing: 10px;
+    font-weight: 200;
+    font-size: 30px;
+    transform: rotate(270deg);
+  }
+
+  .img-1 {
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .img-1 img {
+    width: 100%;
+  }
+
+  .row2 {
+    height: 750px;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: transparent;
+    position: relative;
+    z-index: 3;
+  }
+
+  .paragraph {
+    height: 750px;
+    padding: 0;
+    width: 100%;
+    background-color: #ccc;
+    z-index: 3;
+    border-bottom: solid 1px #fff;
+  }
+
+  .paragraph p {
+    padding: 7% 10%;
+    font-size: 22px;
+    text-align: right;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 8px;
+  }
+
+  .row3 {
+    height: 400px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 1;
+    padding: 0;
+  }
+
+  .empty-block2 {
+    width: 100%;
+    float: left;
+  }
+
+  .resume {
+    height: 400px;
+    text-align: center;
+    background-color: #000;
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .resume a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .resume h1 {
+    margin-top: 28%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .row4 {
+    height: 350px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 3;
+    padding: 0;
+  }
+
+  .empty-block3 {
+    width: 100%;
+    float: right;
+  }
+
+  .skills {
+    height: 350px;
+    text-align: center;
+    background-color: #ccc;
+    float: left !important;
+    padding: 0px !important;
+    border-bottom: solid 1px #fff;
+  }
+
+  .skills h1 {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+    padding-bottom: 5%;
+  }
+
+  .skills h3 {
+    font-size: 21px;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 10px;
+  }
+
+  .row5 {
+    height: 300px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 1;
+    padding: 0;
+  }
+
+  .empty-block2 {
+    width: 100%;
+    float: left;
+  }
+
+  .acomplishments {
+    height: 300px;
+    text-align: center;
+    background-color: #000;
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .acomplishments h1 {
+    margin-top: 5%;
+    padding-bottom: 0.5%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .acomplishments h3 {
+    padding: 1% 3%;
+    font-size: 21px;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 10px;
+    text-align: left;
+  }
+
+  .row6 {
+    height: 440px;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 3;
+    padding: 0;
+  }
+
+  .contact {
+    width: 100%;
+    float: right;
+    text-align: center;
+  }
+
+  .contact h1 {
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 8% 20%;
+  }
+
+  .contact h3 {
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 10px;
+    text-align: center;
+    text-decoration: line-through;
+  }
+
+  .contact img {
+    height: auto;
+    width: 25%;
+    padding: 3%;
+  }
+
+  .img-2 {
+    height: auto;
+    background-color: #000;
+    float: left !important;
+    padding: 0px !important;
+  }
+
+  .img-2 img {
+    height: auto;
+    width: 55%;
+    margin-right: 25%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .vr {
+    width: 1px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 8%;
+    z-index: 2;
+  }
+
+  .header {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-color: #ccc;
+  }
+
+  .logo {
+    position: relative;
+    z-index: 10;
+    top: 40px;
+    left: 3.1%;
+  }
+
+  .logo img {
+    height: auto;
+    width: 10%;
+  }
+
+  .name {
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+    display: block;
+  }
+
+  .name h3 {
+    color: #fff;
+    letter-spacing: 10px;
+    font-weight: 200;
+    margin-top: 30px;
+    padding-top: 30px;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .description h1 {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    bottom: 80px;
+    display: block;
+    position: relative;
+    letter-spacing: 10px;
+    font-weight: 400;
+  }
+
+  .row1 {
+    top: 0;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: #D8D8D8;
+    position: relative;
+    z-index: 1;
+  }
+
+  .side-text {
+    background-color: transparent;
+    left: -18.5%;
+    z-index: 3;
+  }
+
+  .side-text h3 {
+    color: #fff;
+    padding-left: 8%;
+    letter-spacing: 10px;
+    font-weight: 200;
+    font-size: 30px;
+    transform: rotate(270deg);
+  }
+
+  .img-1 {
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .img-1 img {
+    width: 100%;
+  }
+
+  .row2 {
+    height: 990px;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: transparent;
+    position: relative;
+    z-index: 3;
+  }
+
+  .paragraph {
+    height: 990px;
+    padding: 0;
+    width: 100%;
+    background-color: #ccc;
+    z-index: 3;
+    border-bottom: solid 1px #fff;
+  }
+
+  .paragraph p {
+    padding: 5% 10%;
+    font-size: 21px;
+    text-align: right;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 8px;
+    font-size: 25px;
+  }
+
+  .row3 {
+    height: 400px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 1;
+    padding: 0;
+  }
+
+  .empty-block2 {
+    width: 100%;
+    float: left;
+  }
+
+  .resume {
+    height: 400px;
+    text-align: center;
+    background-color: #000;
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .resume a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .resume h1 {
+    margin-top: 35%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .row4 {
+    height: 400px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 3;
+    padding: 0;
+  }
+
+  .empty-block3 {
+    width: 100%;
+    float: right;
+  }
+
+  .skills {
+    height: 400px;
+    text-align: center;
+    background-color: #ccc;
+    float: left !important;
+    padding: 0px !important;
+  }
+
+  .skills h1 {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 18%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+    padding-bottom: 5%;
+  }
+
+  .skills h3 {
+    font-size: 21px;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 10px;
+  }
+
+  .row5 {
+    height: 400px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 1;
+    padding: 0;
+  }
+
+  .empty-block2 {
+    width: 100%;
+    float: left;
+  }
+
+  .acomplishments {
+    height: 400px;
+    text-align: center;
+    background-color: #000;
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .acomplishments h1 {
+    margin-top: 10%;
+    padding-bottom: 5%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .acomplishments h3 {
+    padding: 2% 3%;
+    font-size: 21px;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 10px;
+    text-align: left;
+  }
+
+  .row6 {
+    height: 620px;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 3;
+    padding: 0;
+  }
+
+  .contact {
+    top: 25%;
+    width: 100%;
+    float: right;
+    text-align: center;
+  }
+
+  .contact h1 {
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 5% 20%;
+  }
+
+  .contact h3 {
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 10px;
+    text-align: center;
+    text-decoration: line-through;
+  }
+
+  .contact img {
+    height: auto;
+    width: 25%;
+    padding: 3%;
+  }
+
+  .img-2 {
+    height: auto;
+    background-color: #000;
+    float: left !important;
+    padding: 0px !important;
+  }
+
+  .img-2 img {
+    height: auto;
+    width: 100%;
+    margin-right: 0%;
+  }
+}
+
+@media screen and (max-width: 1200px) and (orientation: landscape) {
+  .vr {
+    width: 1px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 8%;
+    z-index: 2;
+  }
+
+  .header {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: #ccc;
+  }
+
+  .logo {
+    position: relative;
+    z-index: 10;
+    top: 40px;
+    left: 2.02%;
+  }
+
+  .logo img {
+    height: auto;
+    width: 12%;
+  }
+
+  .name {
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+    display: block;
+  }
+
+  .name h3 {
+    color: #fff;
+    letter-spacing: 10px;
+    font-weight: 200;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .description h1 {
+    padding: 0;
+    margin: 0;
+    bottom: 80px;
+    display: block;
+    position: relative;
+    letter-spacing: 10px;
+    font-weight: 400;
+  }
+
+  .row1 {
+    top: 0;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: #D8D8D8;
+    position: relative;
+    z-index: 1;
+  }
+
+  .side-text {
+    background-color: transparent;
+    left: -18.5%;
+    z-index: 3;
+  }
+
+  .side-text h3 {
+    color: #fff;
+    padding-left: 8%;
+    letter-spacing: 10px;
+    font-weight: 200;
+    font-size: 30px;
+    transform: rotate(270deg);
+  }
+
+  .img-1 {
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .img-1 img {
+    width: 100%;
+  }
+
+  .row2 {
+    height: 800px;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: transparent;
+    position: relative;
+    z-index: 3;
+  }
+
+  .paragraph {
+    height: 800px;
+    padding: 0;
+    width: 100%;
+    background-color: #ccc;
+    z-index: 3;
+  }
+
+  .paragraph p {
+    padding: 5%;
+    font-size: 22px;
+    text-align: right;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 8px;
+  }
+
+  .row3 {
+    height: 400px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 1;
+    padding: 0;
+  }
+
+  .empty-block2 {
+    width: 100%;
+    float: left;
+  }
+
+  .resume {
+    height: 400px;
+    text-align: center;
+    background-color: #000;
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .resume a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .resume h1 {
+    margin-top: 30%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .row4 {
+    height: 400px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 3;
+    padding: 0;
+  }
+
+  .empty-block3 {
+    width: 100%;
+    float: right;
+  }
+
+  .skills {
+    height: 400px;
+    text-align: center;
+    background-color: #ccc;
+    float: left !important;
+    padding: 0px !important;
+  }
+
+  .skills h1 {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 18%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+    padding-bottom: 5%;
+  }
+
+  .skills h3 {
+    font-size: 21px;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 10px;
+  }
+
+  .row5 {
+    height: 340px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 1;
+    padding: 0;
+  }
+
+  .empty-block2 {
+    width: 100%;
+    float: left;
+  }
+
+  .acomplishments {
+    height: 340px;
+    text-align: center;
+    background-color: #000;
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .acomplishments h1 {
+    margin-top: 5%;
+    padding-bottom: 5%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .acomplishments h3 {
+    padding: 2% 3%;
+    font-size: 21px;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 10px;
+    text-align: left;
+  }
+
+  .row6 {
+    height: 400px;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 3;
+    padding: 0;
+  }
+
+  .contact {
+    width: 100%;
+    float: right;
+    text-align: center;
+  }
+
+  .contact h1 {
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 2% 20%;
+  }
+
+  .contact h3 {
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 10px;
+    text-align: center;
+    text-decoration: line-through;
+  }
+
+  .contact img {
+    height: auto;
+    width: 25%;
+    padding: 3%;
+  }
+
+  .img-2 {
+    height: auto;
+    background-color: #000;
+    float: left !important;
+    padding: 0px !important;
+  }
+
+  .img-2 img {
+    height: auto;
+    width: 70%;
+    margin-right: 16%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .vr {
+    width: 1px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 5.8%;
+    z-index: 2;
+  }
+
+  .header {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: #ccc;
+  }
+
+  .logo {
+    position: relative;
+    z-index: 10;
+    top: 0;
+    left: 0%;
+  }
+
+  .logo img {
+    height: auto;
+    width: 12%;
+  }
+
+  .name {
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+    display: block;
+  }
+
+  .name h3 {
+    color: #fff;
+    letter-spacing: 10px;
+    font-weight: 200;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .description h1 {
+    font-size: 21px;
+    padding: 0;
+    margin: 0;
+    bottom: 80px;
+    display: block;
+    position: relative;
+    letter-spacing: 10px;
+    font-weight: 400;
+  }
+
+  .row1 {
+    top: 0;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: #D8D8D8;
+    position: relative;
+    z-index: 1;
+  }
+
+  .side-text {
+    display: none;
+  }
+
+  .img-1 {
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .img-1 img {
+    width: 100%;
+  }
+
+  .row2 {
+    height: 780px;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: transparent;
+    position: relative;
+    z-index: 3;
+  }
+
+  .empty-block {
+    display: none;
+  }
+
+  .paragraph {
+    height: 780px;
+    padding: 0;
+    width: 100%;
+    background-color: #ccc;
+    z-index: 3;
+  }
+
+  .paragraph p {
+    padding: 3%;
+    font-size: 20px;
+    text-align: right;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 8px;
+  }
+
+  .row3 {
+    height: 160px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 1;
+    padding: 0;
+  }
+
+  .empty-block2 {
+    width: 100%;
+    float: left;
+  }
+
+  .resume {
+    height: 160px;
+    text-align: center;
+    background-color: #000;
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .resume a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .resume h1 {
+    margin-top: 15%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .row4 {
+    height: 315px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 3;
+    padding: 0;
+  }
+
+  .empty-block3 {
+    width: 100%;
+    float: right;
+  }
+
+  .skills {
+    height: 315px;
+    text-align: center;
+    background-color: #ccc;
+    float: left !important;
+    padding: 0px !important;
+  }
+
+  .skills h1 {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 15%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+    padding-bottom: 5%;
+  }
+
+  .skills h3 {
+    font-size: 20px;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 10px;
+  }
+
+  .row5 {
+    height: 350px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 1;
+    padding: 0;
+  }
+
+  .empty-block2 {
+    width: 100%;
+    float: left;
+  }
+
+  .acomplishments {
+    height: 350px;
+    text-align: center;
+    background-color: #000;
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .acomplishments h1 {
+    margin-top: 12%;
+    padding-bottom: 5%;
+    padding-left: 2.5%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+    font-size: 27px;
+  }
+
+  .acomplishments h3 {
+    padding: 0% 3%;
+    font-size: 18px;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 10px;
+    text-align: left;
+  }
+
+  .row6 {
+    height: 350px;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 3;
+    padding: 0;
+  }
+
+  .contact {
+    width: 100%;
+    float: right;
+    text-align: center;
+  }
+
+  .contact h1 {
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 2% 20%;
+  }
+
+  .contact h3 {
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 10px;
+    text-align: center;
+    text-decoration: line-through;
+  }
+
+  .contact img {
+    height: auto;
+    width: 25%;
+    padding: 3%;
+  }
+
+  .img-2 {
+    height: auto;
+    background-color: #000;
+    float: left !important;
+    padding: 0px !important;
+  }
+
+  .img-2 img {
+    height: auto;
+    width: 80%;
+    margin-right: 13%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .vr {
+    width: 1px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 5.917%;
+    z-index: 2;
+  }
+
+  .header {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: #ccc;
+  }
+
+  .logo {
+    position: relative;
+    z-index: 10;
+    top: 101px;
+    left: 0%;
+  }
+
+  .logo img {
+    height: auto;
+    width: 20%;
+  }
+
+  .name {
+    text-align: center;
+    position: relative;
+    bottom: 110px;
+    display: block;
+  }
+
+  .name h3 {
+    color: #fff;
+    letter-spacing: 8px;
+    font-weight: 200;
+    font-size: 11px;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .description h1 {
+    padding: 0;
+    margin: 0;
+    bottom: 110px;
+    display: block;
+    position: relative;
+    letter-spacing: 8px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .row1 {
+    top: 0;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: #D8D8D8;
+    position: relative;
+    z-index: 5;
+  }
+
+  .side-text {
+    display: none;
+  }
+
+  .img-1 {
+    float: right !important;
+    padding: 0px !important;
+    z-index: ;
+  }
+
+  .img-1 img {
+    width: 100%;
+  }
+
+  .row2 {
+    height: 600px;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+  }
+
+  .paragraph {
+    height: 600px;
+    padding: 0;
+    width: 100%;
+    background-color: #ccc;
+    z-index: 3;
+  }
+
+  .paragraph p {
+    padding: 5% 3% 3% 7%;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 8px;
+  }
+
+  .row3 {
+    height: 365px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 3;
+    padding: 0;
+  }
+
+  .empty-block2 {
+    width: 100%;
+    float: left;
+  }
+
+  .resume {
+    height: 365px;
+    text-align: center;
+    background-color: #000;
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .resume a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .resume h1 {
+    margin-top: 35%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .row4 {
+    height: 370px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 1;
+    padding: 0;
+  }
+
+  .empty-block3 {
+    width: 100%;
+    float: right;
+  }
+
+  .skills {
+    height: 370px;
+    text-align: center;
+    background-color: #ccc;
+    float: left !important;
+    padding: 0px !important;
+  }
+
+  .skills h1 {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 18%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+    padding-bottom: 5%;
+  }
+
+  .skills h3 {
+    font-size: 19px;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 10px;
+  }
+
+  .row5 {
+    height: 365px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 3;
+    padding: 0;
+  }
+
+  .empty-block2 {
+    width: 100%;
+    float: left;
+  }
+
+  .acomplishments {
+    height: 365px;
+    text-align: center;
+    background-color: #000;
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .acomplishments h1 {
+    margin-top: 8%;
+    padding-bottom: 5%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .acomplishments h3 {
+    padding: 2% 3% 2% 8%;
+    font-size: 19px;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 10px;
+    text-align: left;
+  }
+
+  .row6 {
+    height: 750px;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 3;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact {
+    top: 10%;
+    height: 375px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+
+  .contact h1 {
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 0% 20%;
+  }
+
+  .contact h3 {
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 10px;
+    text-align: center;
+    text-decoration: line-through;
+  }
+
+  .contact img {
+    height: auto;
+    width: 25%;
+    padding: 3%;
+  }
+
+  .img-2 {
+    height: 375px;
+    background-color: #000;
+    padding: 0px !important;
+    order: 2;
+  }
+
+  .img-2 img {
+    height: auto;
+    width: 72.5%;
+    margin-right: 12%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  .vr {
+    width: 1px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 5.917%;
+    z-index: 2;
+  }
+
+  .header {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: #ccc;
+  }
+
+  .logo {
+    position: relative;
+    z-index: 10;
+    top: 101px;
+    left: 0%;
+  }
+
+  .logo img {
+    height: auto;
+    width: 18%;
+  }
+
+  .name {
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    display: block;
+  }
+
+  .name h3 {
+    color: #fff;
+    letter-spacing: 7.5px;
+    font-weight: 200;
+    font-size: 9.5px;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .description h1 {
+    padding: 0;
+    margin: 0;
+    bottom: 100px;
+    display: block;
+    position: relative;
+    letter-spacing: 7.5px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .row1 {
+    top: 0;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: #D8D8D8;
+    position: relative;
+    z-index: 5;
+  }
+
+  .side-text {
+    display: none;
+  }
+
+  .img-1 {
+    float: right !important;
+    padding: 0px !important;
+    z-index: ;
+  }
+
+  .img-1 img {
+    width: 100%;
+  }
+
+  .row2 {
+    height: 670px;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+  }
+
+  .paragraph {
+    height: 670px;
+    padding: 0;
+    width: 100%;
+    background-color: #ccc;
+    z-index: 3;
+  }
+
+  .paragraph p {
+    padding: 7% 3% 7% 7%;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 8px;
+  }
+
+  .row3 {
+    height: 345px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 3;
+    padding: 0;
+  }
+
+  .empty-block2 {
+    width: 100%;
+    float: left;
+  }
+
+  .resume {
+    height: 345px;
+    text-align: center;
+    background-color: #000;
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .resume a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .resume h1 {
+    margin-top: 40%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .row4 {
+    height: 345px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 1;
+    padding: 0;
+  }
+
+  .empty-block3 {
+    width: 100%;
+    float: right;
+  }
+
+  .skills {
+    height: 345px;
+    text-align: center;
+    background-color: #ccc;
+    float: left !important;
+    padding: 0px !important;
+  }
+
+  .skills h1 {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 18%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+    padding-bottom: 5%;
+  }
+
+  .skills h3 {
+    font-size: 20px;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 8px;
+  }
+
+  .row5 {
+    height: 345px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 3;
+    padding: 0;
+  }
+
+  .empty-block2 {
+    width: 100%;
+    float: left;
+  }
+
+  .acomplishments {
+    height: 345px;
+    text-align: center;
+    background-color: #000;
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .acomplishments h1 {
+    margin-top: 8%;
+    padding-bottom: 3%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+    font-size: 25px;
+  }
+
+  .acomplishments h3 {
+    padding: 2% 3% 2% 8%;
+    font-size: 17px;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 10px;
+    text-align: left;
+  }
+
+  .row6 {
+    height: 670px;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 3;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact {
+    border-top: solid 1px #fff;
+    top: 0;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+
+  .contact h1 {
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 10% 20% 2% 20%;
+  }
+
+  .contact h3 {
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 10px;
+    text-align: center;
+    text-decoration: line-through;
+  }
+
+  .contact img {
+    height: auto;
+    width: 25%;
+    padding: 3%;
+  }
+
+  .img-2 {
+    height: 630px;
+    background-color: #000;
+    padding: 0px !important;
+    order: 2;
+  }
+
+  .img-2 img {
+    height: auto;
+    width: 79.5%;
+    margin-right: 10%;
+  }
+}
+
+@media screen and (max-width: 750px) and (orientation: landscape) {
+
+  .vr {
+    width: 1px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 6.917%;
+    z-index: 2;
+  }
+
+  .header {
+    position: relative;
+    height: 120px;
+    width: 100%;
+    background-color: #ccc;
+  }
+
+  .logo {
+    position: relative;
+    z-index: 10;
+    top: 121px;
+    left: 0;
+  }
+
+  .logo img {
+    height: auto;
+    width: 14%;
+  }
+
+  .name {
+    text-align: center;
+    position: relative;
+    bottom: 110px;
+    display: block;
+  }
+
+  .name h3 {
+    color: #fff;
+    letter-spacing: 10px;
+    font-weight: 200;
+    font-size: 18px;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .description h1 {
+    padding: 0;
+    margin: 0;
+    bottom: 110px;
+    display: block;
+    position: relative;
+    letter-spacing: 10px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .row1 {
+    top: 0;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: #D8D8D8;
+    position: relative;
+    z-index: 5;
+  }
+
+  .side-text {
+    display: none;
+  }
+
+  .img-1 {
+    float: right !important;
+    padding: 0px !important;
+    z-index: ;
+  }
+
+  .img-1 img {
+    height: auto;
+    width: 100%;
+  }
+
+  .row2 {
+    height: 430px;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+  }
+
+  .paragraph {
+    height: 430px;
+    padding: 0;
+    width: 100%;
+    background-color: #ccc;
+    z-index: 3;
+    border: none;
+  }
+
+  .paragraph p {
+    padding: 3% 3% 3% 7%;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 8px;
+  }
+
+  .row3 {
+    height: 200px;
+    width: 100%;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 3;
+    padding: 0;
+  }
+
+  .empty-block2 {
+    width: 100%;
+    float: left;
+  }
+
+  .resume {
+    height: 200px;
+    text-align: center;
+    background-color: #000;
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .resume a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .resume h1 {
+    margin-top: 9%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .row4 {
+    height: 210px;
+    width: 100%;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 1;
+    padding: 0;
+  }
+
+  .empty-block3 {
+    width: 100%;
+    float: right;
+  }
+
+  .skills {
+    height: 210px;
+    text-align: center;
+    background-color: #ccc;
+    float: left !important;
+    padding: 0px !important;
+    border: none;
+  }
+
+  .skills h1 {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 2%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+    padding-bottom: 1%;
+  }
+
+  .skills h3 {
+    font-size: 19px;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 10px;
+  }
+
+  .row5 {
+    height: 210px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 3;
+    padding: 0;
+  }
+
+  .empty-block2 {
+    width: 100%;
+    float: left;
+  }
+
+  .acomplishments {
+    height: 210px;
+    text-align: center;
+    background-color: #000;
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .acomplishments h1 {
+    margin-top: 1.5%;
+    padding-bottom: 0.5%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .acomplishments h3 {
+    padding: 1% 3% 1% 8%;
+    font-size: 19px;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 10px;
+    text-align: left;
+  }
+
+  .row6 {
+    height: 650px;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 3;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact {
+    top: 0;
+    height: 220px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+
+  .contact h1 {
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 0% 20%;
+  }
+
+  .contact h3 {
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 10px;
+    text-align: center;
+    text-decoration: line-through;
+  }
+
+  .contact img {
+    height: auto;
+    width: 18%;
+    padding: 0% 3%;
+  }
+
+  .img-2 {
+    height: 430px;
+    background-color: #000;
+    padding: 0px !important;
+    order: 2;
+  }
+
+  .img-2 img {
+    height: auto;
+    width: 46.7%;
+    margin-right: 26%;
+  }
+}
+
+@media screen and (max-width: 700px) and (orientation: landscape) {
+
+  .vr {
+    width: 1px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 6.917%;
+    z-index: 2;
+  }
+
+  .header {
+    position: relative;
+    height: 120px;
+    width: 100%;
+    background-color: #ccc;
+  }
+
+  .logo {
+    position: relative;
+    z-index: 10;
+    top: 121px;
+    left: 0;
+  }
+
+  .logo img {
+    height: auto;
+    width: 14%;
+  }
+
+  .name {
+    text-align: center;
+    position: relative;
+    bottom: 110px;
+    display: block;
+  }
+
+  .name h3 {
+    color: #fff;
+    letter-spacing: 10px;
+    font-weight: 200;
+    font-size: 16px;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .description h1 {
+    padding: 0;
+    margin: 0;
+    bottom: 110px;
+    display: block;
+    position: relative;
+    letter-spacing: 9.5px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .row1 {
+    top: 0;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: #D8D8D8;
+    position: relative;
+    z-index: 5;
+  }
+
+  .side-text {
+    display: none;
+  }
+
+  .img-1 {
+    float: right !important;
+    padding: 0px !important;
+    z-index: ;
+  }
+
+  .img-1 img {
+    height: auto;
+    width: 100%;
+  }
+
+  .row2 {
+    height: 375px;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+  }
+
+  .paragraph {
+    height: 375px;
+    padding: 0;
+    width: 100%;
+    background-color: #ccc;
+    z-index: 3;
+    border: none;
+  }
+
+  .paragraph p {
+    padding: 3% 3% 3% 7%;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 8px;
+  }
+
+  .row3 {
+    height: 190px;
+    width: 100%;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 3;
+    padding: 0;
+  }
+
+  .empty-block2 {
+    width: 100%;
+    float: left;
+  }
+
+  .resume {
+    height: 190px;
+    text-align: center;
+    background-color: #000;
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .resume a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .resume h1 {
+    margin-top: 13%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .row4 {
+    height: 190px;
+    width: 100%;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 1;
+    padding: 0;
+  }
+
+  .empty-block3 {
+    width: 100%;
+    float: right;
+  }
+
+  .skills {
+    height: 190px;
+    text-align: center;
+    background-color: #ccc;
+    float: left !important;
+    padding: 0px !important;
+    border: none;
+  }
+
+  .skills h1 {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 2%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+    padding-bottom: 0%;
+  }
+
+  .skills h3 {
+    font-size: 18px;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 10px;
+  }
+
+  .row5 {
+    height: 190px;
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 3;
+    padding: 0;
+  }
+
+  .empty-block2 {
+    width: 100%;
+    float: left;
+  }
+
+  .acomplishments {
+    height: 190px;
+    text-align: center;
+    background-color: #000;
+    float: right !important;
+    padding: 0px !important;
+  }
+
+  .acomplishments h1 {
+    margin-top: 2%;
+    padding-bottom: 0;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .acomplishments h3 {
+    padding: 0% 3% 0% 8%;
+    font-size: 18px;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 8px;
+    text-align: left;
+  }
+
+  .row6 {
+    height: 600px;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    background-color: #d8d8d8;
+    z-index: 3;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact {
+    top: 0;
+    height: 220px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+
+  .contact h1 {
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 0% 20%;
+  }
+
+  .contact h3 {
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 10px;
+    text-align: center;
+    text-decoration: line-through;
+  }
+
+  .contact img {
+    height: auto;
+    width: 18%;
+    padding: 0% 3%;
+  }
+
+  .img-2 {
+    height: 430px;
+    background-color: #000;
+    padding: 0px !important;
+    order: 2;
+  }
+
+  .img-2 img {
+    height: auto;
+    width: 47.5%;
+    margin-right: 26%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+
+    .vr {
+      width: 1px;
+      background-color: #fff;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 5.917%;
+      z-index: 2;
+    }
+
+    .header {
+      position: relative;
+      height: 100px;
+      width: 100%;
+      background-color: #ccc;
+    }
+
+    .logo {
+      position: relative;
+      z-index: 10;
+      top: 101px;
+      left: 0%;
+    }
+
+    .logo img {
+      height: auto;
+      width: 18%;
+    }
+
+    .name {
+      text-align: center;
+      position: relative;
+      bottom: 85px;
+      display: block;
+    }
+
+    .name h3 {
+      color: #fff;
+      letter-spacing: 6px;
+      font-weight: 200;
+      font-size: 9px;
+    }
+
+    .description {
+      text-align: center;
+    }
+
+    .description h1 {
+      padding: 0;
+      margin: 0;
+      bottom: 85px;
+      display: block;
+      position: relative;
+      letter-spacing: 6px;
+      font-weight: 400;
+      font-size: 12px;
+    }
+
+    .row1 {
+      top: 0;
+      border-top: solid 1px #fff;
+      border-bottom: solid 1px #fff;
+      margin-right: 0;
+      margin-left: 0;
+      background-color: #D8D8D8;
+      position: relative;
+      z-index: 5;
+    }
+
+    .side-text {
+      display: none;
+    }
+
+    .img-1 {
+      float: right !important;
+      padding: 0px !important;
+      z-index: ;
+    }
+
+    .img-1 img {
+      width: 100%;
+    }
+
+    .row2 {
+      height: 630px;
+      border-bottom: solid 1px #fff;
+      margin-right: 0;
+      margin-left: 0;
+      background-color: transparent;
+      position: relative;
+      z-index: 1;
+    }
+
+    .paragraph {
+      height: 630px;
+      padding: 0;
+      width: 100%;
+      background-color: #ccc;
+      z-index: 3;
+    }
+
+    .paragraph p {
+      padding: 5% 3% 5% 5%;
+      font-size: 16px;
+      text-align: left;
+      font-weight: 200;
+      color: #fff;
+      letter-spacing: 6px;
+    }
+
+    .row3 {
+      height: 345px;
+      width: 100%;
+      border-bottom: solid 1px #fff;
+      margin-right: 0;
+      margin-left: 0;
+      position: relative;
+      background-color: #d8d8d8;
+      z-index: 3;
+      padding: 0;
+    }
+
+    .empty-block2 {
+      width: 100%;
+      float: left;
+    }
+
+    .resume {
+      height: 345px;
+      text-align: center;
+      background-color: #000;
+      float: right !important;
+      padding: 0px !important;
+    }
+
+    .resume a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .resume h1 {
+      margin-top: 45%;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 200;
+      letter-spacing: 10px;
+      font-size: 30px;
+    }
+
+    .row4 {
+      height: 345px;
+      width: 100%;
+      border-bottom: solid 1px #fff;
+      margin-right: 0;
+      margin-left: 0;
+      position: relative;
+      background-color: #d8d8d8;
+      z-index: 1;
+      padding: 0;
+    }
+
+    .empty-block3 {
+      width: 100%;
+      float: right;
+    }
+
+    .skills {
+      height: 345px;
+      text-align: center;
+      background-color: #ccc;
+      float: left !important;
+      padding: 0px !important;
+    }
+
+    .skills h1 {
+      color: #fff;
+      text-decoration: none;
+      margin-top: 18%;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 200;
+      letter-spacing: 10px;
+      padding-bottom: 5%;
+    }
+
+    .skills h3 {
+      font-size: 16px;
+      font-weight: 200;
+      color: #fff;
+      letter-spacing: 7px;
+    }
+
+    .row5 {
+      height: 345px;
+      width: 100%;
+      border-bottom: solid 1px #fff;
+      margin-right: 0;
+      margin-left: 0;
+      position: relative;
+      background-color: #d8d8d8;
+      z-index: 3;
+      padding: 0;
+    }
+
+    .empty-block2 {
+      width: 100%;
+      float: left;
+    }
+
+    .acomplishments {
+      height: 345px;
+      text-align: center;
+      background-color: #000;
+      float: right !important;
+      padding: 0px !important;
+    }
+
+    .acomplishments h1 {
+      margin-top: 8%;
+      padding-bottom: 3%;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 200;
+      letter-spacing: 10px;
+      font-size: 20px;
+    }
+
+    .acomplishments h3 {
+      padding: 2% 3% 2% 8%;
+      font-size: 17px;
+      font-weight: 200;
+      color: #fff;
+      letter-spacing: 10px;
+      text-align: left;
+    }
+
+    .row6 {
+      height: 575px;
+      width: 100%;
+      margin-right: 0;
+      margin-left: 0;
+      position: relative;
+      background-color: #d8d8d8;
+      z-index: 3;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact {
+      border-top: solid 1px #fff;
+      top: 0;
+      height: 500px;
+      width: 100%;
+      text-align: center;
+      position: relative;
+    }
+
+    .contact h1 {
+      color: #fff;
+      font-weight: 200;
+      letter-spacing: 10px;
+      text-align: center;
+      padding: 10% 10% 1% 10%;
+    }
+
+    .contact h3 {
+      color: #fff;
+      font-weight: 200;
+      letter-spacing: 10px;
+      text-align: center;
+      text-decoration: line-through;
+    }
+
+    .contact img {
+      height: auto;
+      width: 25%;
+      padding: 3%;
+    }
+
+    .img-2 {
+      height: 630px;
+      background-color: #000;
+      padding: 0px !important;
+      order: 2;
+    }
+
+    .img-2 img {
+      height: auto;
+      width: 79.5%;
+      margin-right: 10%;
+    }
+  }
+
+@media screen and (max-width: 650px) and (orientation: landscape) {
+
+    .vr {
+      width: 1px;
+      background-color: #fff;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 6.917%;
+      z-index: 2;
+    }
+
+    .header {
+      position: relative;
+      height: 120px;
+      width: 100%;
+      background-color: #ccc;
+    }
+
+    .logo {
+      position: relative;
+      z-index: 10;
+      top: 121px;
+      left: 0;
+    }
+
+    .logo img {
+      height: auto;
+      width: 14%;
+    }
+
+    .name {
+      text-align: center;
+      position: relative;
+      bottom: 100px;
+      display: block;
+    }
+
+    .name h3 {
+      color: #fff;
+      letter-spacing: 10px;
+      font-weight: 200;
+      font-size: 14px;
+    }
+
+    .description {
+      text-align: center;
+    }
+
+    .description h1 {
+      padding: 0;
+      margin: 0;
+      bottom: 100px;
+      display: block;
+      position: relative;
+      letter-spacing: 7px;
+      font-weight: 400;
+      font-size: 16px;
+    }
+
+    .row1 {
+      top: 0;
+      border-top: solid 1px #fff;
+      border-bottom: solid 1px #fff;
+      margin-right: 0;
+      margin-left: 0;
+      background-color: #D8D8D8;
+      position: relative;
+      z-index: 5;
+    }
+
+    .side-text {
+      display: none;
+    }
+
+    .img-1 {
+      float: right !important;
+      padding: 0px !important;
+      z-index: ;
+    }
+
+    .img-1 img {
+      height: auto;
+      width: 100%;
+    }
+
+    .row2 {
+      height: 375px;
+      margin-right: 0;
+      margin-left: 0;
+      background-color: transparent;
+      position: relative;
+      z-index: 1;
+    }
+
+    .paragraph {
+      height: 375px;
+      padding: 0;
+      width: 100%;
+      background-color: #ccc;
+      z-index: 3;
+      border: none;
+    }
+
+    .paragraph p {
+      padding: 3% 3% 3% 7%;
+      font-size: 14px;
+      text-align: left;
+      font-weight: 200;
+      color: #fff;
+      letter-spacing: 8px;
+    }
+
+    .row3 {
+      height: 190px;
+      width: 100%;
+      border-top: solid 1px #fff;
+      border-bottom: solid 1px #fff;
+      margin-right: 0;
+      margin-left: 0;
+      position: relative;
+      background-color: #d8d8d8;
+      z-index: 3;
+      padding: 0;
+    }
+
+    .empty-block2 {
+      width: 100%;
+      float: left;
+    }
+
+    .resume {
+      height: 190px;
+      text-align: center;
+      background-color: #000;
+      float: right !important;
+      padding: 0px !important;
+    }
+
+    .resume a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .resume h1 {
+      margin-top: 13%;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 200;
+      letter-spacing: 10px;
+    }
+
+    .row4 {
+      height: 190px;
+      width: 100%;
+      border-top: solid 1px #fff;
+      border-bottom: solid 1px #fff;
+      margin-right: 0;
+      margin-left: 0;
+      position: relative;
+      background-color: #d8d8d8;
+      z-index: 1;
+      padding: 0;
+    }
+
+    .empty-block3 {
+      width: 100%;
+      float: right;
+    }
+
+    .skills {
+      height: 190px;
+      text-align: center;
+      background-color: #ccc;
+      float: left !important;
+      padding: 0px !important;
+      border: none;
+    }
+
+    .skills h1 {
+      color: #fff;
+      text-decoration: none;
+      margin-top: 2%;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 200;
+      letter-spacing: 10px;
+      padding-bottom: 0%;
+    }
+
+    .skills h3 {
+      font-size: 18px;
+      font-weight: 200;
+      color: #fff;
+      letter-spacing: 10px;
+    }
+
+    .row5 {
+      height: 190px;
+      width: 100%;
+      border-bottom: solid 1px #fff;
+      margin-right: 0;
+      margin-left: 0;
+      position: relative;
+      background-color: #d8d8d8;
+      z-index: 3;
+      padding: 0;
+    }
+
+    .empty-block2 {
+      width: 100%;
+      float: left;
+    }
+
+    .acomplishments {
+      height: 190px;
+      text-align: center;
+      background-color: #000;
+      float: right !important;
+      padding: 0px !important;
+    }
+
+    .acomplishments h1 {
+      margin-top: 2%;
+      padding-bottom: 0;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 200;
+      letter-spacing: 10px;
+    }
+
+    .acomplishments h3 {
+      padding: 0% 3% 0% 8%;
+      font-size: 18px;
+      font-weight: 200;
+      color: #fff;
+      letter-spacing: 8px;
+      text-align: left;
+    }
+
+    .row6 {
+      height: 540px;
+      width: 100%;
+      margin-right: 0;
+      margin-left: 0;
+      position: relative;
+      background-color: #d8d8d8;
+      z-index: 3;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact {
+      top: 0;
+      height: 250px;
+      width: 100%;
+      text-align: center;
+      position: relative;
+    }
+
+    .contact h1 {
+      color: #fff;
+      font-weight: 200;
+      letter-spacing: 10px;
+      text-align: center;
+      padding: 0% 20%;
+    }
+
+    .contact h3 {
+      color: #fff;
+      font-weight: 200;
+      letter-spacing: 10px;
+      text-align: center;
+      text-decoration: line-through;
+    }
+
+    .contact img {
+      height: auto;
+      width: 18%;
+      padding: 0% 3%;
+    }
+
+    .img-2 {
+      height: 430px;
+      background-color: #000;
+      padding: 0px !important;
+      order: 2;
+    }
+
+    .img-2 img {
+      height: auto;
+      width: 47.5%;
+      margin-right: 26%;
+    }
+  }
+
+  @keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
+  /* Firefox < 16 */
+  @-moz-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
+  /* Internet Explorer */
+  @-ms-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
+  /* Opera < 12.1 */
+  @-o-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
