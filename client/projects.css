@@ -53,7 +53,7 @@ body {
 @media screen and (max-width: 1400px) {
   .vr {
     width: 1px;
-    background-color: #ccc;
+    background-color: #C4C4C4;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -109,7 +109,7 @@ body {
     height: 387.5px;
     background-color: transparent;
     z-index: 3;
-    border: dotted 1px #ccc;
+    border: dotted 1px #C4C4C4;
   }
 
   .kuout a {
@@ -144,7 +144,7 @@ body {
 @media screen and (max-width: 1300px) {
   .vr {
     width: 1px;
-    background-color: #ccc;
+    background-color: #C4C4C4;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -200,7 +200,7 @@ body {
     height: 364px;
     background-color: transparent;
     z-index: 3;
-    border: dotted 1px #ccc;
+    border: dotted 1px #C4C4C4;
   }
 
   .kuout a {
@@ -235,7 +235,7 @@ body {
 @media screen and (max-width: 1200px) {
   .vr {
     width: 1px;
-    background-color: #ccc;
+    background-color: #C4C4C4;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -291,7 +291,7 @@ body {
     height: 290px;
     background-color: transparent;
     z-index: 3;
-    border: dotted 1px #ccc;
+    border: dotted 1px #C4C4C4;
   }
 
   .kuout a {
@@ -326,7 +326,7 @@ body {
 @media screen and (max-width: 1200px) and (orientation: landscape) {
   .vr {
     width: 1px;
-    background-color: #ccc;
+    background-color: #C4C4C4;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -382,7 +382,7 @@ body {
     height: 290.5px;
     background-color: transparent;
     z-index: 3;
-    border: dotted 1px #ccc;
+    border: dotted 1px #C4C4C4;
   }
 
   .kuout a {
@@ -417,7 +417,7 @@ body {
 @media screen and (max-width: 800px) {
   .vr {
     width: 1px;
-    background-color: #ccc;
+    background-color: #C4C4C4;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -472,7 +472,7 @@ body {
   .kuout {
     height: 218px;
     background-color: transparent;
-    border: dotted 1px #ccc;
+    border: dotted 1px #C4C4C4;
     z-index: 3;
   }
 
@@ -508,7 +508,7 @@ body {
 @media screen and (max-width: 500px) {
   .vr {
     width: 1px;
-    background-color: #ccc;
+    background-color: #C4C4C4;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -563,7 +563,7 @@ body {
 
   .kuout {
     height: 200px;
-    border: solid 1px #ccc;
+    border: solid 1px #C4C4C4;
     background-color: transparent;
     z-index: 3;
     border-bottom: dotted 1px #50E3C2;
@@ -601,7 +601,7 @@ body {
 @media screen and (max-width: 400px) {
   .vr {
     width: 1px;
-    background-color: #ccc;
+    background-color: #C4C4C4;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -656,7 +656,7 @@ body {
 
   .kuout {
     height: 185px;
-    border: dotted 1px #ccc;
+    border: dotted 1px #C4C4C4;
     background-color: transparent;
     z-index: 3;
   }
@@ -693,7 +693,7 @@ body {
 @media screen and (max-width: 750px) and (orientation: landscape) {
   .vr {
     width: 1px;
-    background-color: #ccc;
+    background-color: #C4C4C4;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -748,7 +748,7 @@ body {
 
   .kuout {
     height: 270px;
-    border: dotted 1px #ccc;
+    border: dotted 1px #C4C4C4;
     background-color: transparent;
     z-index: 3;
   }
@@ -785,7 +785,7 @@ body {
 @media screen and (max-width: 700px) and (orientation: landscape) {
   .vr {
     width: 1px;
-    background-color: #ccc;
+    background-color: #C4C4C4;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -840,7 +840,7 @@ body {
 
   .kuout {
     height: 250px;
-    border: dotted 1px #ccc;
+    border: dotted 1px #C4C4C4;
     background-color: transparent;
     z-index: 3;
   }
@@ -877,7 +877,7 @@ body {
 @media screen and (max-width: 350px) {
   .vr {
     width: 1px;
-    background-color: #ccc;
+    background-color: #C4C4C4;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -932,7 +932,7 @@ body {
 
   .kuout {
     height: 165px;
-    border: dotted 1px #ccc;
+    border: dotted 1px #C4C4C4;
     background-color: transparent;
     z-index: 3;
   }
@@ -969,7 +969,7 @@ body {
 @media screen and (max-width: 650px) and (orientation: landscape) {
   .vr {
     width: 1px;
-    background-color: #ccc;
+    background-color: #C4C4C4;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -1024,7 +1024,7 @@ body {
 
   .kuout {
     height: 210px;
-    border: dotted 1px #ccc;
+    border: dotted 1px #C4C4C4;
     background-color: transparent;
     z-index: 3;
   }
